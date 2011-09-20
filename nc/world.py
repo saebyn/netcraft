@@ -14,6 +14,10 @@ def apply_gravity(world):
     ...                "   ",
     ...                "###"])
     ["   ", "sss", "###"]
+    >>> apply_gravity(["sss",
+    ...                "  #",
+    ...                "###"])
+    ["  s", "ss#", "###"]
     >>> apply_gravity(["   ",
     ...                "sss",
     ...                "###"])
